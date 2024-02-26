@@ -1,0 +1,1135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #c8c6c6;;
+
+}
+
+label, .menu_icon{
+    display: none;
+}
+.Wrapper{
+    display: flex;
+    max-width: 100%;
+    height: 100vh;
+}
+
+.col-2{
+    /* border: 2px solid red; */
+    width: 60%;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),url(assets/New\ dev.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.col-1{
+    /* border: 3px solid yellow; */
+    width: 40%;
+    background-color: #171717;
+    color: #fff;
+}
+
+
+/* NAv styling */
+
+.nav-items{
+    display: flex;
+    gap : 12px;
+    width: 100%; 
+    border: 4px solid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #5d5d5d;
+}
+
+.nav-items a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+
+.nav-items a:last-child{
+    border: 2px solid #df4950;
+}
+
+/* Logo styling */
+
+.content > img{
+    width: 10%;
+    height: 10%;
+    margin-left: 9rem;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+/* Hero section */
+
+.content-1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    /* border: 2px solid red; */
+    margin: 5rem 0 0 9rem;
+    position: absolute;
+}
+
+.sub_content > h4{
+    font-size: 1.5rem;
+}
+
+.sub_content > h2{
+
+}
+
+.content-1>h2{
+    font-size: 3rem;
+    position: relative;
+    text-transform: uppercase;
+}
+
+h2 span{
+    color: #df4950;
+}
+
+.content-1 > button{
+    width: 20%;
+    padding: 20px  20px ;
+    font-size: 18px;
+    text-transform: uppercase;
+    background-color: #df4950;
+    color: white;
+    font-weight: bold;
+}
+
+.content-1 > p{
+    font-size: 1.5rem;
+    position: relative;
+    opacity: .7;
+}
+
+/* Who am i Section */
+
+
+.square-img>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50px;
+    top: 40px; 
+    object-fit: cover;
+    
+}
+
+.square-img{
+    width: 950px; 
+    height: 75vh;
+    border: 10px solid #171717;
+    margin: 7rem 0 0 7rem;
+    position: relative;
+
+}
+
+.subsec_one{
+    /* border: 2px solid green; */
+    display: flex;
+    gap: 100px;
+} 
+
+ .section-1{
+    background-color: #c8c6c6; 
+    /* border: solid red; */
+    /* padding-bottom: 1rem; */
+    /* margin-bottom: 6rem; */
+
+} 
+
+.content_2{
+    margin:  7.5rem;
+    /* border: 3px solid ; */
+}
+
+.content_h > h5 {
+    font-size: 1.3rem;
+    margin-left: 7.9rem;
+}
+
+.content_h > h2{
+    font-size: 2.5rem;
+    color: #df4950;
+    text-transform: uppercase;
+}
+
+.content_2 > p{
+    font-size: 1.2rem;
+    /* margin-block: 2rem; */
+    opacity: .7;
+}
+
+.content_bu > button{
+    /* margin-block: 2rem; */
+    /* padding: 1rem 2rem 1rem 2rem; */
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #df4950;
+    color: #fff;
+    /* border: solid  #df4950; */
+}
+.content_bu{
+    display: flex;
+    gap: 60px;
+    
+}
+
+/* My services */
+
+.content_3, .my_work, .my_Pricing{
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+
+.content_3{
+    margin-bottom: 8rem;
+    background-color: #c8c6c6;
+}
+
+.content_3 > h5 {
+    font-size: 1.3rem;
+    margin-left: 8.6rem;
+}
+
+.content_3 > h2, .my_work > h2, .my_Pricing > h2{
+    font-size: 2rem;
+    color: #df4950;
+    text-transform: uppercase;
+}
+
+
+/* New section div */
+
+#new_section{
+    background-color: #262626;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+} 
+
+.services-card{
+    padding: 2rem;
+    /* border: solid green; */
+    width: 26%;
+    background-color: #5d5d5d;
+    color: #fff;
+}
+
+.servi_img{
+    width: 100px;
+    height: 80px;
+    color: #fff;
+}
+
+
+.servi_img > img {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.wrap-services{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 220px;
+    justify-content: center;
+}
+
+.services-card h3 {
+    padding: 1.3rem 0 0 .9rem;
+    font-size: 2.0rem;
+}
+
+.services-card>p{
+    padding: 1.2rem 1.2rem;
+    font-size: 1.1rem;
+}
+
+.services-card > button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    margin-left: 1rem ;
+    color: white;
+    background-color: #fd4853;
+    border:#fd4853 ;
+    text-transform: uppercase;
+}
+
+/* Rectangle services */
+
+.second_services{
+    background-color: #171717;
+    width: 82%;
+    height: 68vh;
+    /* border: solid red; */
+    position: absolute;
+    top: 400px;
+    margin-inline: 8rem;
+
+}
+
+.sub_second{
+    font-size: 1.4rem;
+    width: 100%;
+    margin: 3.5rem 5rem 0 5rem;
+   
+}
+
+.sub_second > h3{
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.sub_second > button{
+    font-size: 1rem;
+    background-color: #fd4853;
+    border: #fd4853;
+    color: #fff;
+}
+
+
+.sub_second > p{
+    padding-block: 1rem;
+}
+
+.second_p{
+    margin-top: 2rem;
+    font-size: 2.5rem;
+}
+.second_p > h5{
+    padding-block: .5rem;
+}
+
+input{
+    padding: 1rem 1rem 1rem 1rem;
+    font-size: 1.8rem;
+    opacity: .3;
+    margin-block: 1rem;
+
+}
+
+.second_p > button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background-color: #fd4853;
+    border: #fd4853;
+    color: #fff;
+    margin: 2rem 0 5rem 11.5rem
+
+}
+
+.total_services{
+    display: flex;
+    gap: 100px;
+    color: #fff;
+    
+}
+
+/* My work */
+
+#my_work{
+    margin: 18rem 10rem 0 10rem;
+    
+    /* border: 3px solid blue; */
+    padding-block: 5rem;
+}
+
+.my_work> h5{
+    font-size: 1.2rem;
+    margin-left: 2rem;
+
+}
+
+.my_work > h2 {
+    font-size: 2rem;
+    color: #df4950;
+    text-transform: uppercase;
+}
+
+.mywork_nav{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 8rem 8rem;
+    gap: 50px;   
+    
+}
+
+.mywork_nav >a {
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    opacity: .7;
+    font-weight: 800;
+}
+
+/* overall Card */
+
+.overall_card{
+    width: 100%;
+    max-width: 1200%;
+    height: 90vh;
+    background-color: #171717;
+    position: relative;
+}
+ 
+.sub_card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    position: absolute;
+    top: -150px;
+
+} 
+
+.work_card,.work_card2, .work_card3, .work_card4,  .work_card5, .work_card6 {
+    background-color: #0a0909;
+    width: 28%;
+    color: #fff;
+}
+
+.work_card2, .work_card4, .work_card6{
+    background-color: #5d5d5d;
+}
+
+
+.img_card{
+    height: 170px;
+    width: 280px;
+    object-fit: cover;
+}
+
+.img_card > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+    margin-inline: 3rem;
+    margin-block: 1rem;
+}
+
+.work_content{
+    margin-block: 2rem;
+    margin-inline: 3rem;
+}
+
+.work_content > h3{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+
+.work_content > p {
+    font-size: 1.1rem;
+    padding-block: 1rem;
+    opacity: .7;
+}
+
+.work_content > a{ 
+    font-size: 1.6rem;
+}
+.arrow{
+    display: flex;
+    gap: 30px;
+    float: right;
+    margin: 8rem 12rem 0 7rem;
+
+}
+
+/* icons section */
+
+.left_1 > i, .left_2 > i{
+    font-size: 2rem;
+    border: solid black;
+    border-radius: 10%;
+    padding-inline: 1rem;
+    opacity: .7;
+} 
+
+/* My Pricing */
+
+#Pricing{
+    
+    margin-block:18rem;
+}
+
+.my_Pricing > h5{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+#Pricing_basis{
+    background-color: #171717;
+    height: 73vh;
+    width: 100%;
+    margin-top: 15rem;
+    position: relative;
+    
+}
+
+.pricing_basis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: absolute;
+    top: -250px; 
+    margin-left: 6rem;
+
+    
+}
+
+.basis_card, .basis_card1, .basis_card2{
+    color: black;
+    width: 370px;
+    height: 650px;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d5d5d;    
+}
+
+
+
+.basis_card1{
+    background-color: #0a0909;
+    color: #fff;
+}
+
+.basis_card1 > button{
+    background-color: #0a0909; 
+    color: #fff;
+}
+
+.basis_card > h4, .basis_card1 > h4, .basis_card2 > h4{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    margin-left: -1rem;
+    font-weight: bold;
+}
+
+.basis_card > p, .basis_card1 > p, .basis_card2 > p {
+    font-size: 3rem;
+    margin-left: -3rem;
+    padding: 3.5rem 0 .9rem 0;
+    font-weight: bolder;
+}
+
+sub{
+    font-size: 1.5rem;
+}
+
+.basis_bol1{
+    opacity: .5;
+    
+}
+
+.basis_bol1 > h5{
+    width: 100%;
+    font-size: 1.4rem;
+    padding: 1rem 1rem 1rem 3rem
+}
+
+button{
+    padding: 1rem 3rem 1rem 3rem  ;
+    border: solid 3px #df4950;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 2rem;
+    background-color: #5d5d5d ;
+}
+/* After effect */
+
+.logo_h5, .respo_h5{
+    display: flex;
+    align-items: center;
+    
+}
+
+.mark, .mark2{
+    width: 60px;
+}
+
+.respo_h5 > h5{
+    font-size: 1.7rem; 
+    
+}
+
+.logo_h5 >h5{
+    font-size: 1.7rem ;
+}
+
+/* footer section */
+
+#footer{
+    background-color: #fd4853;
+    height: 55vh;
+}
+
+.foot_logo {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+     
+    
+}
+
+.foot_logo > img{
+    width: 100%;
+    height: 100%;
+    margin-block: 1rem;
+      
+}
+
+.footer_links {
+    display: block;
+    text-align: center;
+    margin-block: 1rem;
+    
+}
+
+.footer_links > a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.social_icon{
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    padding-top: 15px;
+    justify-content: center;
+}
+
+.instagram, .facebook, .twitter, .linkedin{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.352);
+    align-items: center;
+
+
+}
+
+
+
+
+
+hr{
+    opacity: .3;
+    margin-top: 3rem;
+}
+
+.right{
+    color: #fff;
+    text-align: center;
+    padding-block: 1rem;
+    font-size: 1rem;
+    opacity: .7;
+}
+
+/* Responsive code */
+
+@media(min-width: 320px) and (max-width: 500px){
+    .nav-left{
+        /* border: solid red; */
+        position: absolute;
+        width: 80%;
+        z-index: 1;
+        /* height: 100vh; */
+        background-color: black;
+        display: none;
+        
+        
+    }
+
+    .nav-items{
+        flex-direction: column;
+        background-color: transparent;
+        
+        
+        
+    }
+
+    .nav-items>a{
+        font-weight: bold;
+        border-bottom: 2px solid #fff;
+        background-color: rgba(255, 0, 0, 0.425);
+        width: 100%;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+
+    .nav-items>a:hover{
+        background-color: white;
+        color: black;
+        border-bottom: 2px solid #ff0000;
+        
+    }
+
+    .nav-items>a:last-child{
+        border-bottom: solid #fff;
+       
+    }
+
+    .nav-items>a:last-child:hover{
+        background-color: white;
+        color: black;
+        border-bottom: 2px solid #ff0000;
+    }
+
+
+
+    label{
+        display: block;
+        color: white;
+        float: right;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    #toggle:checked + .nav-left{
+        display: block;
+    }
+
+    /* 1st section */
+
+    .Wrapper{
+        width: 100%;
+    }
+
+    .col-1{
+        width: 0;
+        
+    }
+
+    .col-2{
+        width: 100%;   
+       
+    }
+
+    .content-1>h2{
+        font-size: 1.9rem;
+        margin:  0 0 0 -9rem;
+        
+        text-transform: uppercase;
+    }
+
+    .sub_content > h4{
+        text-align: center;
+        margin:  0 0 0 -9rem;
+    }
+
+    .content-1 > p{
+        width: 360px;
+        font-size: 1.8rem;
+        margin:  0 0 0 -8rem;
+    }
+
+    .content-1 > button{
+
+        width: 80%;
+        margin:  0 0 0 -5rem;
+
+    }
+
+    .subsec_one{
+        flex-direction: column;
+    }
+
+    .square-img{
+        width: 350px; 
+        height: 45vh;
+        margin: 2rem 0 0 1rem;
+    
+    }
+
+    .content_h > h5 {
+        font-size: 4.3rem;
+        width: 370px;
+        margin: 0 0 0 1.9rem;
+    }
+
+    .content_2{
+        margin:  0;
+    }
+
+    .content_h > h2,  .content_h > h5{
+
+        font-size: 3rem;
+
+    }
+
+   
+    .content_h{
+        display: flex;
+        flex-direction: column;
+        margin: 0 3rem 0 3.5rem;
+    }
+
+    .content_2 > p{
+        font-size: 1.2rem;
+        margin-inline: 1rem;
+        
+    }
+
+    .content_bu > button{
+        height: 6vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px !important;
+
+        font-size: 1rem;
+    }
+
+    .content_bu{
+        margin-bottom: 2rem;
+        width: 100%;
+        gap: 15px;
+        margin-inline: 1rem;
+      
+    }
+
+    #new_section{
+        background-color: #c8c6c6;
+    }
+
+    .wrap-services{
+        flex-direction: column;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        bottom: 7rem;
+    }
+
+    .services-card{
+        padding: 1rem;
+
+        border: solid green;
+        width: 86%;
+        background-color: #5d5d5d;
+        color: #fff;
+    }
+
+    .services-card h3 {
+        padding: .8rem 0 0 .5rem;
+        font-size: 1.0rem;
+    }
+    
+    .services-card>p{
+        padding: .8rem .8rem;
+        font-size: .7rem;
+    }
+    
+    .services-card > button{
+        padding: .5rem .6rem;
+        font-size: .6rem;
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin: 0;
+        background-color: #fd4853;
+        border:#fd4853 ;
+        text-transform: uppercase;
+    }
+
+    .servi_img   {
+       width: 75px;
+       height: 60px;
+       color: #fff;
+    }
+
+    
+
+    .second_services{
+        width: 100%;
+        top: 530px;
+        margin: 0 0 -3rem 0;
+       
+        /* font-size: 1rem; */
+    }
+
+    .total_services{
+        flex-direction: column;
+        gap: 0;
+        margin-inline: .3rem;
+        /* font-size: .6rem; */
+        
+    }
+
+    .sub_second{
+        font-size: 1rem;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .sub_second > p{
+        width: 350px;
+    }
+
+    .sub_second > h3{
+        margin: 1.5rem 0 0 0;
+    }
+
+
+    .sub_second > button{
+        font-size: .7rem;
+        margin: 0;
+        padding: .7rem .6rem .6rem .7rem;
+    }
+
+    .second_p > h5{ 
+        font-size: 1.6rem;
+        margin: 0 0 1rem 1.5rem;
+    }
+       
+
+    .second_p > input {
+        font-size: 1rem;
+        margin: 0 0 1rem 1.5rem;
+    }
+
+    .second_p > button {
+        font-size: .8rem;
+        margin: 0 0 5rem 1.5rem;
+    }
+
+    #my_work{
+        /* border: solid green; */
+        margin-top: 19rem; 
+    }
+
+    .my_work{
+        width: 280px;
+        justify-content: center;
+        margin: 3rem -7rem 1rem -7rem;
+    }
+    .mywork_nav{
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+        margin: 0 6rem 0 -9rem;
+        border: 3px solid black;
+        width: 0;
+        display: none;
+    }
+
+    .sub_card{
+        flex-direction: column;
+        top: -3rem;
+        /* border: solid red; */
+        
+        padding-bottom: 2rem;
+        margin-top: 0;
+       
+     
+    } 
+
+    .work_card,.work_card2, .work_card3, .work_card4,  .work_card5, .work_card6 {
+        background-color: #0a0909;
+        width: 80%;
+        height: 40vh;
+        color: #fff;
+        height: auto;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .overall_card{
+        height: 250vh;
+        margin-top: 1rem;
+        background-color: transparent;
+
+    }
+
+    .img_card{
+        height: 150px;
+        width: 250px;
+        margin-left: -1.1rem;
+
+    }
+
+    .work_content > h3{
+        font-size: 1.0rem;
+        text-transform: uppercase;
+    }
+
+    .work_content > a{ 
+        font-size: 1rem;
+    }
+
+    .work_content > p {
+        font-size: 1rem;
+        padding-block: .7rem;
+        opacity: 1;
+    }
+
+    .basis_card > h4, .basis_card1 > h4, .basis_card2 > h4{
+        font-size: 1rem;
+        font-weight: bold; 
+    }
+
+    .basis_card > p, .basis_card1 > p, .basis_card2 > p {
+        font-size: 1rem;
+    }
+
+    .mark, .mark2{
+        width: 40px;
+    }
+
+    .respo_h5 > h5{
+        font-size: 1rem; 
+    
+    }
+    
+    .logo_h5 >h5{
+        font-size: 1rem ;
+    }
+
+    .basis_bol1 > h5{
+        font-size: 1rem;
+    }
+
+    .basis_card, .basis_card1, .basis_card2{
+        width: 270px;
+        height: auto; 
+        padding: 40px;
+    }
+
+    .basis_bol1 > h5{
+        width: 100%;
+        font-size: 1rem;
+        padding: .5rem 1rem .5rem 3rem
+    }
+
+    .basis_card > p, .basis_card1 > p, .basis_card2 > p {
+        padding: 1.5rem 0 .9rem 0;
+    }
+
+    button{
+        padding: .5rem 1rem .5rem 1rem  ;
+        border: solid 3px #df4950;
+        font-size: .5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 2rem;
+        background-color: #5d5d5d ;
+    }
+
+    sub{
+        font-size: .7rem;
+    }
+
+    .pricing_basis{
+        flex-direction: column;
+        align-items: center; 
+        margin-left: 3rem;    
+    }
+
+    #Pricing_basis{
+        background-color: transparent;
+        height: 150vh;
+        width: 100%;
+        
+    }
+
+    .my_Pricing{
+        margin-block: 6rem;
+    }
+
+    .arrow{
+        display: none;
+    }
+
+    #Pricing{
+    
+        margin-top:19rem;
+    }
+    
+    
+
+    
+
+
+
+    
+
+   
+    
+
+    
+
+
+    
+}; 
+
+
+
+    
+
+
+    
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
